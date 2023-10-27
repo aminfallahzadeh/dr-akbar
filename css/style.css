@@ -20,7 +20,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #c1c1c1;
+  background-color: #3e363f;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -60,7 +60,7 @@ body {
   justify-content: center;
   align-items: center; }
   .card__title {
-    background-color: #a5a5a5;
+    background-color: #e1ad01;
     width: 32rem;
     border-radius: 1rem;
     display: flex;
@@ -69,6 +69,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 3rem 1.5rem 3rem 1.5rem; }
+    .card__title h2 {
+      color: #3e363f; }
+    .card__title p {
+      color: #3e363f;
+      text-align: center; }
     .card__title--img {
       width: 15rem;
       border-radius: 50%; }
@@ -82,7 +87,7 @@ body {
         background: rgba(52, 188, 70, 0.2);
         border-radius: 1rem;
         padding: 1rem;
-        color: #333; }
+        color: #3e363f; }
         .card__body--info li span {
           font-style: italic;
           color: #777; }
@@ -98,7 +103,7 @@ body {
       padding-bottom: 1rem;
       text-align: center; }
       .card__body h2 span {
-        color: #299638;
+        color: #e1ad01;
         font-style: italic; }
 
 .btn {
@@ -116,10 +121,15 @@ body {
     -webkit-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75); }
 
-.btn-dark {
-  background-color: #a5a5a5;
+.btn-light {
+  background-color: #e1ad01;
   border-radius: 5rem;
-  color: #ededed; }
+  color: #3e363f;
+  transition: all 0.5s;
+  overflow: hidden; }
+  .btn-light:hover {
+    background-color: transparent;
+    color: #e1ad01; }
 
 .header {
   position: relative;
@@ -134,7 +144,7 @@ body {
     width: 25rem;
     z-index: 101; }
   .header__textContainer span {
-    color: #299638; }
+    color: #73a580; }
   .header__footer {
     background-color: #34bc46;
     padding: 3.5rem;
@@ -155,7 +165,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color: #299638;
+  background-color: #73a580;
   height: 40rem;
   box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75);
@@ -165,10 +175,8 @@ body {
     left: 10rem;
     top: 4rem; }
     .navbar__title h1 {
-      color: #ededed; }
+      color: #fff; }
     .navbar__title h2 {
-      color: #c1c1c1; }
-    .navbar__title p {
       color: #ededed; }
   .navbar__links {
     display: flex;
@@ -186,10 +194,13 @@ body {
         font-size: 1.7rem; }
         .navbar__links-list li a {
           text-decoration: none;
-          color: #ededed;
-          transition: all 0.25s; }
+          color: #fff;
+          transition: all 0.5s;
+          border-radius: 1rem;
+          padding: 0.5rem 1rem; }
           .navbar__links-list li a:hover {
-            color: #c1c1c1; }
+            color: #e1ad01;
+            background-color: #3e363f; }
 
 .about {
   margin-top: 40rem; }
@@ -204,15 +215,15 @@ body {
     align-items: center;
     row-gap: 10rem; }
     .about__container--txt {
-      background-color: #ededed;
+      background-color: #c1c1c1;
       border-radius: 1rem;
       width: 80rem;
       padding: 3rem; }
       .about__container--txt h3 {
         padding-bottom: 2rem;
-        border-bottom: 2px solid #c1c1c1;
+        border-bottom: 2px solid #ededed;
         margin-bottom: 3rem;
-        color: #299638; }
+        color: #006002; }
     .about__container p {
       font-size: 2rem !important;
       line-height: 4rem;
@@ -242,9 +253,9 @@ body {
       row-gap: 2rem;
       width: 30rem;
       height: 20rem;
-      background: rgba(52, 188, 70, 0.2);
+      background-color: #73a580;
       transition: all 0.5s;
-      border: 2px solid #299638; }
+      border: 2px solid #006002; }
       .projects__container--card span {
         text-align: center;
         font-size: 1.4rem; }
@@ -253,7 +264,8 @@ body {
         border: 1px solid #777;
         border-radius: 1rem;
         padding: 1.2rem;
-        transition: all 0.5s; }
+        transition: all 0.5s;
+        color: #3e363f; }
       .projects__container--card:hover {
         transform: translateY(-0.5rem);
         border: 2px solid transparent;
@@ -261,9 +273,9 @@ body {
         -webkit-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75);
         -moz-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75); }
         .projects__container--card:hover i {
-          color: red;
+          color: #e1ad01;
           border: 1px solid transparent;
-          background-color: #a5a5a5; }
+          background-color: #3e363f; }
 
 .students {
   margin-top: 10rem; }
