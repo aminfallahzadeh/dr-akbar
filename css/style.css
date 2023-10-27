@@ -30,7 +30,7 @@ body {
   font-family: "Playpen Sans", sans-serif; }
 
 .heading-primary {
-  font-size: 4rem;
+  font-size: 3.4rem;
   font-family: "Jost", sans-serif;
   font-weight: 600;
   text-transform: uppercase; }
@@ -49,10 +49,9 @@ body {
   font-size: 1.5rem; }
 
 .card {
-  position: relative;
+  position: absolute;
   background-color: #ededed;
   border-radius: 1rem;
-  position: absolute;
   top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -157,14 +156,14 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #299638;
-  height: 50vh;
+  height: 40rem;
   box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75); }
   .navbar__title {
     position: absolute;
     left: 10rem;
-    top: 10rem; }
+    top: 4rem; }
     .navbar__title h1 {
       color: #ededed; }
     .navbar__title h2 {
@@ -177,7 +176,7 @@ body {
     align-items: center;
     position: absolute;
     right: 10rem;
-    top: 10rem; }
+    top: 5rem; }
     .navbar__links-list {
       display: flex;
       flex-direction: row;
