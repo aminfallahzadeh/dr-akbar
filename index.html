@@ -16,8 +16,13 @@
 
     <nav class="navbar">
         <div class="navbar__title">
-            <h1 class="heading-primary">Dr Fatemeh Akbar</h1>
-            <h2 class="heading-secondary">Some Sample Text</h2>
+            <div>
+                <img src="./assets/Logo.png" alt="Logo" />
+            </div>
+            <div>
+                <h1 class="heading-primary">Dr Fatemeh Akbar</h1>
+                <h2 class="heading-secondary">Some Sample Text</h2>
+            </div>
         </div>
         <div class="navbar__links">
             <ul class="navbar__links-list">
@@ -38,19 +43,20 @@
                 </li>
             </ul>
         </div>
+    </nav>
 
-        <header class="card">
-            <div class="card__title">
-                <h2 class="heading-secondary">My Profile</h2>
-                <img src="assets/profile-pic.jpg" alt="Fatemeh Akbar" class="card__title--img" />
-                <h2 class="heading-secondary">Great Master</h2>
-                <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi, quaerat ab nihil
-                    accusantium illo sint magnam qui.
+    <header class="header">
+        <div class="header__profile">
+            <div class="header__profile--title">
+                <!-- <h2 class="heading-secondary">My Profile</h2> -->
+                <img src="assets/profile-pic.jpg" alt="Fatemeh Akbar" class="header__profile--title-img" />
+                <h2 class="heading-secondary">Assistant Professor</h2>
+                <p class="paragraph">SHINE (SHarif INtegrated Electronics)
                 </p>
             </div>
-            <div class="card__body">
+            <div class="header__profile--body">
                 <h2 class="heading-secondary">I'M <span>Fatemeh Akbar</span></h2>
-                <ul class="card__body--info">
+                <ul class="header__profile--body-info">
                     <li><span>Education :</span>
                         <p>Ph.D. degree in Electrical Engineering</p>
                     </li>
@@ -64,88 +70,94 @@
                         <p>Sharif University Assistant Professor</p>
                     </li>
                 </ul>
-                <div class="card__body--btn">
+                <div class="header__profile--body-btn">
                     <a href="#projects" class="btn btn-light">My Projects</a>
                 </div>
             </div>
-        </header>
-    </nav>
-    <main>
-        <div class="about" id="about">
-            <h1 class="heading-primary">About ME</h1>
-            <div class="about__container">
-                <div class="about__container--txt">
-                    <h3 class="heading-tertiary">Title ONE</h3>
-                    <p class="paragraph">
-                        Fatemeh Akbar received her Ph.D. degree in Electrical Engineering from the University of
-                        Michigan, Ann Arbor, USA, in 2018. Afterwards, she joined the California Institute of Technology
-                        (Caltech) as a postdoctoral research scholar, and she is currently serving as an assistant
-                        professor at the Electrical Engineering department of the Sharif University of Technology.
-                    </p>
-                </div>
-                <div class="about__container--txt">
-                    <h3 class="heading-tertiary">Title Two</h3>
-                    <p class="paragraph">
-                        Her research interests include RF/mmWave/THz IC Design, Wireline Communications, Ultra-low-power
-                        IC Design, Applied Electromagnetics, and Bioelectronics. Ms. Akbar was a recipient of the
-                        Engineering Graduate Symposium Technical Award from the University of Michigan, College of
-                        Engineering in 2014, 2016, and 2017 and invited to MIT’s EECS Rising Star workshop in 2018.
-                    </p>
-                </div>
+        </div>
+        <div class="header__text">
+            <div class="header__text--box">
+                <h3 class="heading-tertiary">About Me</h3>
+                <p class="paragraph">
+                    Fatemeh Akbar received her Ph.D. degree in Electrical Engineering from the University of
+                    Michigan, Ann Arbor, USA, in 2018. Afterwards, she joined the California Institute of Technology
+                    (Caltech) as a postdoctoral research scholar, and she is currently serving as an assistant
+                    professor at the Electrical Engineering department of the Sharif University of Technology.
+                </p>
+            </div>
+
+            <div class="header__text--box">
+                <h3 class="heading-tertiary">About My Career</h3>
+                <p class="paragraph">
+                    Fatemeh Akbar received her Ph.D. degree in Electrical Engineering from the University of
+                    Michigan, Ann Arbor, USA, in 2018. Afterwards, she joined the California Institute of Technology
+                    (Caltech) as a postdoctoral research scholar, and she is currently serving as an assistant
+                    professor at the Electrical Engineering department of the Sharif University of Technology.
+                </p>
             </div>
         </div>
+    </header>
 
+    <main>
         <div class="projects" id="projects">
             <h1 class="heading-primary">Our Reasearch Topics</h1>
 
             <div class="projects__container">
                 <div class="projects__container--card">
-                    <i class="fa fa-bolt"></i>
-                    <span class="paragraph">Simultaneous Tx and Rx operation from both antenna and electronic viewpoints
+                    <img src="./assets/research-1.jpg" alt="Researrch 1" />
+                    <!-- <i class="fa fa-bolt"></i> -->
+                    <p class="paragraph">Simultaneous Tx and Rx operation from both antenna and electronic viewpoints
                         for
-                        communication and radar systems</span>
+                        communication and radar systems</p>
                 </div>
 
                 <div class="projects__container--card">
-                    <i class="fa-solid fa-layer-group"></i>
-                    <span class="paragraph">Self-calibrated low-complexity integrated phased arrays</span>
+                    <!-- <i class="fa-solid fa-layer-group"></i>
+                     -->
+                    <img src="./assets/research-2.jpg" alt="Researrch 1" />
+                    <p class="paragraph">Self-calibrated low-complexity integrated phased arrays</p>
                 </div>
 
                 <div class="projects__container--card">
-                    <i class="fa-solid fa-asterisk"></i>
-                    <span class="paragraph">Beamforming/steering based on the superposition of circular modes</span>
+                    <!-- <i class="fa-solid fa-asterisk"></i> -->
+                    <img src="./assets/research-3.jpg" alt="Researrch 1" />
+                    <p class="paragraph">Beamforming/steering based on the superposition of circular modes</p>
                 </div>
 
                 <div class="projects__container--card">
-                    <i class="fa-solid fa-power-off"></i>
-                    <span class="paragraph">Low-power Low-complexity high-speed wireline transceivers</span>
+                    <!-- <i class="fa-solid fa-power-off"></i>
+                     -->
+                    <img src="./assets/research-4.jpg" alt="Researrch 1" />
+                    <p class="paragraph">Low-power Low-complexity high-speed wireline transceivers</p>
                 </div>
 
                 <div class="projects__container--card">
-                    <i class="fa-solid fa-moon"></i>
-                    <span class="paragraph">Low-power compact phase shifters with independent amplitude/phase
-                        control</span>
+                    <!-- <i class="fa-solid fa-moon"></i> -->
+                    <img src="./assets/research-5.jpg" alt="Researrch 1" />
+                    <p class="paragraph">Low-power compact phase shifters with independent amplitude/phase
+                        control</p>
                 </div>
 
                 <div class="projects__container--card">
-                    <i class="fa-brands fa-mixer"></i>
-                    <span class="paragraph">Harmonic rejection mixers</span>
+                    <!-- <i class="fa-brands fa-mixer"></i> -->
+                    <img src="./assets/research-6.jpg" alt="Researrch 1" />
+                    <p class="paragraph">Harmonic rejection mixers</p>
                 </div>
 
                 <div class="projects__container--card">
                     <i class="fa fa-bolt"></i>
-                    <span class="paragraph">Ultra-low-phase noise and ZTC oscillators</span>
+                    <p class="paragraph">Ultra-low-phase noise and ZTC oscillators</p>
                 </div>
 
                 <div class="projects__container--card">
                     <i class="fa-solid fa-lightbulb"></i>
-                    <span class="paragraph">Energy-efficient low-noise amplifiers for portable bioelectric signal
-                        acquisition systems</span>
+                    <p class="paragraph">Energy-efficient low-noise amplifiers for portable bioelectric signal
+                        acquisition systems</p>
                 </div>
 
                 <div class="projects__container--card">
                     <i class="fa-solid fa-plug"></i>
-                    <span class="paragraph">Wearable Electronics</span>
+                    <p class="paragraph">Wearable Electronics</p>
                 </div>
             </div>
         </div>
