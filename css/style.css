@@ -20,7 +20,7 @@ html {
   scroll-behavior: smooth; }
 
 body {
-  background-color: #3e363f;
+  background-color: #1c1c1c;
   text-size-adjust: none;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
@@ -60,7 +60,7 @@ body {
   justify-content: center;
   align-items: center; }
   .card__title {
-    background-color: #e1ad01;
+    background-color: #b28228;
     width: 32rem;
     border-radius: 1rem;
     display: flex;
@@ -70,9 +70,9 @@ body {
     align-items: center;
     padding: 3rem 1.5rem 3rem 1.5rem; }
     .card__title h2 {
-      color: #3e363f; }
+      color: #1c1c1c; }
     .card__title p {
-      color: #3e363f;
+      color: #1c1c1c;
       text-align: center; }
     .card__title--img {
       width: 15rem;
@@ -84,10 +84,10 @@ body {
       margin-bottom: 3rem;
       font-size: 1.2rem; }
       .card__body--info li {
-        background: rgba(52, 188, 70, 0.2);
+        background: rgba(177, 58, 66, 0.2);
         border-radius: 1rem;
         padding: 1rem;
-        color: #3e363f; }
+        color: #1c1c1c; }
         .card__body--info li span {
           font-style: italic;
           color: #777; }
@@ -103,7 +103,7 @@ body {
       padding-bottom: 1rem;
       text-align: center; }
       .card__body h2 span {
-        color: #e1ad01;
+        color: #b28228;
         font-style: italic; }
 
 .btn {
@@ -122,14 +122,14 @@ body {
     -moz-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75); }
 
 .btn-light {
-  background-color: #e1ad01;
+  background-color: #b28228;
   border-radius: 5rem;
-  color: #3e363f;
+  color: #1c1c1c;
   transition: all 0.5s;
   overflow: hidden; }
   .btn-light:hover {
     background-color: transparent;
-    color: #e1ad01; }
+    color: #b13a42; }
 
 .header {
   position: relative;
@@ -144,7 +144,7 @@ body {
     width: 25rem;
     z-index: 101; }
   .header__textContainer span {
-    color: #73a580; }
+    color: #ffb606; }
   .header__footer {
     background-color: #34bc46;
     padding: 3.5rem;
@@ -165,7 +165,7 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
-  background-color: #73a580;
+  background-color: #ffb606;
   height: 40rem;
   box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 1px 2px 9px 0px rgba(0, 0, 0, 0.75);
@@ -199,8 +199,8 @@ body {
           border-radius: 1rem;
           padding: 0.5rem 1rem; }
           .navbar__links-list li a:hover {
-            color: #e1ad01;
-            background-color: #3e363f; }
+            color: #b13a42;
+            background-color: #1c1c1c; }
 
 .about {
   margin-top: 40rem; }
@@ -223,7 +223,7 @@ body {
         padding-bottom: 2rem;
         border-bottom: 2px solid #ededed;
         margin-bottom: 3rem;
-        color: #006002; }
+        color: #b28228; }
     .about__container p {
       font-size: 2rem !important;
       line-height: 4rem;
@@ -253,29 +253,30 @@ body {
       row-gap: 2rem;
       width: 30rem;
       height: 20rem;
-      background-color: #73a580;
       transition: all 0.5s;
-      border: 2px solid #006002; }
+      border: 2px solid #b13a42;
+      background-color: #c1c1c1; }
       .projects__container--card span {
         text-align: center;
-        font-size: 1.4rem; }
+        font-size: 1.5rem;
+        font-weight: 600; }
       .projects__container--card i {
         font-size: 2rem;
         border: 1px solid #777;
         border-radius: 1rem;
         padding: 1.2rem;
         transition: all 0.5s;
-        color: #3e363f; }
+        color: #1c1c1c; }
       .projects__container--card:hover {
         transform: translateY(-0.5rem);
         border: 2px solid transparent;
-        box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 1px 6px 15px 0px rgba(0, 0, 0, 0.75); }
+        box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75);
+        -webkit-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75);
+        -moz-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75); }
         .projects__container--card:hover i {
-          color: #e1ad01;
+          color: #b13a42;
           border: 1px solid transparent;
-          background-color: #3e363f; }
+          background-color: #1c1c1c; }
 
 .students {
   margin-top: 10rem; }
