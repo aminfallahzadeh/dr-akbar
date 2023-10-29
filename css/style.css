@@ -221,7 +221,7 @@ body {
     font-size: 2.4rem; }
 
 .projects {
-  margin-top: 20rem;
+  margin-top: 17rem;
   padding: 0 15rem 0 15rem; }
   .projects h1 {
     text-align: center; }
@@ -284,7 +284,7 @@ body {
     color: #ededed; }
 
 .roles {
-  margin-top: 20rem;
+  margin-top: 17rem;
   padding: 0 15rem 0 15rem; }
   .roles__text {
     display: flex;
@@ -315,6 +315,12 @@ body {
         line-height: 3rem;
         text-align: justify; }
         .roles ul li p i {
-          font-size: 2rem; }
+          font-size: 2rem;
+          color: #b13a42; }
       .roles ul li:not(:first-child) {
         margin-top: 1.5rem; }
+
+.news {
+  margin-top: 17rem; }
+  .news h1 {
+    text-align: center; }
