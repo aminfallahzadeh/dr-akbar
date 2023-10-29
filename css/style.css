@@ -75,7 +75,7 @@ body {
     color: #b13a42; }
 
 .header {
-  margin-top: 15rem;
+  margin-top: 25rem;
   display: flex;
   flex-direction: row;
   column-gap: 8rem;
@@ -151,7 +151,7 @@ body {
     .header__text--box {
       background-color: #cacaca;
       border-radius: 1rem;
-      padding: 2rem; }
+      padding: 2rem 4rem 2rem 4rem; }
     .header__text h3 {
       padding-bottom: 1rem;
       border-bottom: 2px solid #ededed;
@@ -164,24 +164,34 @@ body {
       text-align: justify; }
 
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 15rem 0 15rem; }
+  padding: 3rem 15rem 0;
+  z-index: 2000;
+  transition: all 0.25s;
+  border-bottom: 2px solid transparent; }
   .navbar__title {
     display: flex;
-    column-gap: 2rem; }
+    column-gap: 2rem;
+    transition: all 0.5s; }
     .navbar__title h2 {
       color: #cacaca;
       font-style: italic; }
     .navbar__title img {
       width: 10rem;
-      border-radius: 50%; }
+      border-radius: 50%;
+      transition: all 0.5s; }
   .navbar__links {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5rem; }
+    padding-bottom: 5rem;
+    transition: all 0.5s; }
     .navbar__links-list {
       display: flex;
       flex-direction: row;
@@ -198,6 +208,18 @@ body {
           .navbar__links-list li a:hover {
             color: #ffc107;
             background-color: #b13a42; }
+
+.active {
+  background-color: #222830;
+  border-bottom: 2px solid #a5a5a5; }
+  .active #logo {
+    width: 8rem; }
+  .active #title-1 {
+    font-size: 3rem; }
+  .active #title-2 {
+    font-size: 2.6rem; }
+  .active #links {
+    padding-top: 3rem; }
 
 .projects {
   margin-top: 20rem;
