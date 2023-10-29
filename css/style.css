@@ -282,3 +282,39 @@ body {
   .students h1 {
     text-align: center;
     color: #ededed; }
+
+.roles {
+  margin-top: 20rem;
+  padding: 0 15rem 0 15rem; }
+  .roles__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem; }
+    .roles__text--box {
+      border-radius: 1rem;
+      padding: 2rem 4rem 2rem 4rem;
+      width: 100rem;
+      background-color: #cacaca; }
+  .roles h1 {
+    text-align: center; }
+  .roles h3 {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #ededed;
+    margin-bottom: 1rem;
+    color: #b13a42;
+    font-style: italic; }
+  .roles ul {
+    margin-top: 2rem; }
+    .roles ul li {
+      list-style: none; }
+      .roles ul li p {
+        display: flex;
+        column-gap: 2rem;
+        font-size: 1.5rem !important;
+        line-height: 3rem;
+        text-align: justify; }
+        .roles ul li p i {
+          font-size: 2rem; }
+      .roles ul li:not(:first-child) {
+        margin-top: 1.5rem; }
