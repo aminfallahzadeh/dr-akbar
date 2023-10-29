@@ -100,8 +100,7 @@ body {
       row-gap: 3rem;
       justify-content: center;
       align-items: center;
-      padding: 1rem 1.5rem 3rem 1.5rem;
-      flex: 1 1 10em; }
+      padding: 1rem 1.5rem 3rem 1.5rem; }
       .header__profile--title h2 {
         color: #29303a;
         text-align: center;
@@ -112,16 +111,17 @@ body {
         font-size: 1.5rem;
         font-weight: 500; }
       .header__profile--title-img {
-        width: 10rem;
+        width: 15rem;
         border-radius: 50%; }
     .header__profile--body {
-      padding: 3rem;
-      flex: 2 2 20em; }
+      padding: 3rem; }
       .header__profile--body-info {
         list-style: none;
         margin-bottom: 3rem;
         font-size: 1.2rem; }
         .header__profile--body-info li {
+          display: flex;
+          column-gap: 1rem;
           background: rgba(177, 58, 66, 0.2);
           border-radius: 1rem;
           padding: 1rem;
