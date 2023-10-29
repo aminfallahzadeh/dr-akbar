@@ -171,17 +171,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 3rem 15rem 0;
+  padding: 1.5rem 15rem 1.2rem;
   z-index: 2000;
   transition: all 0.25s;
   border-bottom: 2px solid transparent; }
   .navbar__title {
     display: flex;
-    column-gap: 2rem;
-    transition: all 0.5s; }
+    column-gap: 2rem; }
+    .navbar__title h1 {
+      transition: all 0.5s; }
     .navbar__title h2 {
       color: #cacaca;
-      font-style: italic; }
+      font-style: italic;
+      transition: all 0.5s; }
     .navbar__title img {
       width: 10rem;
       border-radius: 50%;
@@ -190,7 +192,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5rem;
     transition: all 0.5s; }
     .navbar__links-list {
       display: flex;
@@ -215,11 +216,9 @@ body {
   .active #logo {
     width: 8rem; }
   .active #title-1 {
-    font-size: 3rem; }
+    font-size: 2.7rem; }
   .active #title-2 {
-    font-size: 2.6rem; }
-  .active #links {
-    padding-top: 3rem; }
+    font-size: 2.4rem; }
 
 .projects {
   margin-top: 20rem;
