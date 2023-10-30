@@ -130,9 +130,8 @@ body {
   padding: 0 20rem; }
   @media (max-width: 93.75em) {
     .header {
-      display: flex;
-      flex-direction: column;
-      row-gap: 10rem; } }
+      column-gap: 5rem;
+      padding: 0 10rem; } }
   @media (max-width: 75em) {
     .header {
       padding: 0 10rem; } }
@@ -143,9 +142,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-    @media (max-width: 93.75em) {
-      .header__profile {
-        flex-direction: row; } }
     .header__profile--title {
       background-color: #ffc107;
       border-radius: 1rem;
@@ -206,7 +202,8 @@ body {
   .header__text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; }
+    justify-content: space-between;
+    row-gap: 5rem; }
 
 .navbar {
   position: fixed;
@@ -296,7 +293,7 @@ body {
         transform: scale(0.7) translateX(-6rem); } }
 
 .projects {
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .projects {
@@ -307,7 +304,7 @@ body {
       margin-top: 10rem;
       padding: 0 5rem; } }
   .projects__container {
-    margin-top: 5rem;
+    margin-top: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5rem;
@@ -318,7 +315,7 @@ body {
       border-radius: 1rem;
       display: flex;
       flex-direction: column;
-      padding: 1rem 2rem 1rem 2rem;
+      padding: 2rem 0.5rem;
       justify-content: center;
       align-items: center;
       row-gap: 2rem; }
@@ -464,7 +461,7 @@ body {
     margin-top: 4rem; }
 
 .roles {
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 0 15rem 0 15rem;
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
@@ -509,7 +506,7 @@ body {
         margin-top: 1.5rem; }
 
 .news {
-  margin-top: 15rem;
+  margin-top: 10rem;
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .news {
@@ -520,7 +517,7 @@ body {
       margin-top: 10rem;
       padding: 0 10rem; } }
   .news__text {
-    margin-top: 8rem; }
+    margin-top: 10rem; }
     .news__text--paragraph {
       display: flex;
       column-gap: 2rem; }
