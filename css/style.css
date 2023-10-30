@@ -286,10 +286,46 @@ body {
           -webkit-filter: grayscale(0); }
 
 .students {
-  margin-top: 10rem; }
+  margin-top: 25rem;
+  padding: 0 20rem; }
+  .students img {
+    width: 15rem;
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+    filter: grayscale(100%);
+    -webklit-filter: grayscale(100%);
+    align-self: flex-start; }
   .students h1 {
-    text-align: center;
-    color: #ededed; }
+    color: #ffc107;
+    text-align: center; }
+  .students__content {
+    margin-top: 5rem;
+    border-radius: 2rem;
+    background-color: #cacaca;
+    padding: 5rem; }
+    .students__content p {
+      display: flex;
+      column-gap: 2rem;
+      border-bottom: 2px solid #ededed;
+      font-size: 1.5rem;
+      padding-bottom: 2rem; }
+    .students__content--list {
+      list-style: none; }
+      .students__content--list span {
+        color: #b13a42;
+        font-size: 2.3rem;
+        transition: all 0.5s; }
+      .students__content--list-item {
+        display: flex;
+        flex-direction: row;
+        column-gap: 5rem; }
+        .students__content--list-item:not(:last-child) {
+          margin-bottom: 2rem; }
+        .students__content--list-item:hover img {
+          border: 2px solid #b13a42;
+          filter: grayscale(0);
+          -webklit-filter: grayscale(0); }
 
 .roles {
   margin-top: 17rem;
