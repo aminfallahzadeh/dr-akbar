@@ -17,7 +17,11 @@ $breakpoint argument choices:
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none; }
 
 body {
   background-color: #29303a;
@@ -47,6 +51,9 @@ body {
   transition: all 0.5s; }
 
 .heading-tertiary {
+  margin-bottom: 4rem;
+  font-style: italic;
+  padding-bottom: 1rem;
   color: #b13a42;
   font-family: "Jost", sans-serif;
   font-size: 2.5rem;
@@ -167,10 +174,6 @@ body {
     border-radius: 1rem; }
     .header__text--box {
       padding: 3rem 4rem 2rem 4rem; }
-    .header__text h3 {
-      padding-bottom: 1rem;
-      margin-bottom: 4rem;
-      font-style: italic; }
 
 .navbar {
   position: fixed;
@@ -187,6 +190,13 @@ body {
   .navbar__title {
     display: flex;
     column-gap: 2rem; }
+    .navbar__title--img {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .navbar__title--header {
+      width: max-content;
+      transition: all 0.5s; }
     .navbar__title h1 {
       text-align: left; }
     .navbar__title img {
@@ -220,10 +230,9 @@ body {
   border-bottom: 2px solid #a5a5a5; }
   .active #logo {
     width: 8rem; }
-  .active #title-1 {
-    font-size: 2.7rem; }
+  .active #title-1,
   .active #title-2 {
-    font-size: 2.4rem; }
+    transform: scale(0.7) translateX(-8rem); }
 
 .projects {
   margin-top: 17rem;
@@ -350,6 +359,27 @@ body {
 .nested {
   list-style: none;
   padding-left: 5rem; }
+
+.publications {
+  margin-top: 20rem;
+  padding: 0 30rem; }
+  .publications__content {
+    margin-top: 5rem; }
+    .publications__content--box {
+      background-color: #cacaca;
+      border-radius: 2rem;
+      padding: 3rem; }
+      .publications__content--box:not(:first-child) {
+        margin-top: 5rem; }
+      .publications__content--box-list {
+        list-style: none; }
+      .publications__content--box-item {
+        display: flex;
+        column-gap: 2rem;
+        margin-top: 2rem; }
+        .publications__content--box-item span {
+          color: #b13a42;
+          font-size: 2rem; }
 
 .roles {
   margin-top: 17rem;

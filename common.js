@@ -10,6 +10,5 @@ function scrollFunction() {
     navBar.classList.add("active");
   } else {
     navBar.classList.remove("active");
-    navLinks.style.transform = "trnaslateY(0)";
   }
 }
