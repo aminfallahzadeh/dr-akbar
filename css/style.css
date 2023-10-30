@@ -145,11 +145,8 @@ body {
     .header__profile--title {
       background-color: #ffc107;
       border-radius: 1rem;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 1rem 1.5rem 3rem 1.5rem;
+      text-align: center;
+      padding: 1rem 1rem;
       row-gap: 3rem; }
       .header__profile--title h2 {
         color: #29303a;
@@ -163,7 +160,7 @@ body {
         width: 13rem;
         border-radius: 50%; }
     .header__profile--body {
-      padding: 3rem;
+      padding: 1rem 3rem;
       flex: 1 1 30%; }
       .header__profile--body-info {
         list-style: none;
