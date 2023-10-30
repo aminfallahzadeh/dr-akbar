@@ -410,7 +410,8 @@ body {
         -webkit-filter: grayscale(100%); }
       .news__images--item p {
         color: #29303a;
-        transition: all 0.5s; }
+        transition: all 0.5s;
+        margin-top: 2rem; }
       .news__images--item:hover {
         transform: translateY(-0.5rem);
         border: 2px solid transparent;
