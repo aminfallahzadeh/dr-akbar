@@ -89,6 +89,23 @@ body {
     background-color: transparent;
     color: #b13a42; }
 
+.textBox {
+  border-radius: 1rem;
+  background-color: #cacaca;
+  padding: 3rem; }
+
+.card {
+  transition: all 0.5s;
+  border: 2px solid #b13a42;
+  background-color: #cacaca;
+  border-radius: 1rem; }
+  .card:hover {
+    transform: translateY(-0.5rem);
+    border: 2px solid transparent;
+    box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75); }
+
 .header {
   margin-top: 25rem;
   display: flex;
@@ -166,14 +183,7 @@ body {
           color: #b13a42;
           font-style: italic; }
   .header__text {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2rem;
-    flex: 1 1 20%;
-    background-color: #cacaca;
-    border-radius: 1rem; }
-    .header__text--box {
-      padding: 3rem 4rem 2rem 4rem; }
+    flex: 1 1 20%; }
 
 .navbar {
   position: fixed;
@@ -305,10 +315,7 @@ body {
     -webklit-filter: grayscale(100%);
     align-self: flex-start; }
   .students__content {
-    margin-top: 5rem;
-    border-radius: 2rem;
-    background-color: #cacaca;
-    padding: 5rem; }
+    margin-top: 5rem; }
     .students__content p {
       display: flex;
       column-gap: 2rem;
@@ -336,10 +343,7 @@ body {
   margin-top: 20rem;
   padding: 0 30rem; }
   .research__content {
-    background-color: #cacaca;
-    border-radius: 2rem;
-    margin-top: 5rem;
-    padding: 10rem; }
+    margin-top: 5rem; }
     .research__content img {
       width: 50rem;
       border-radius: 1rem;
@@ -365,21 +369,17 @@ body {
   padding: 0 30rem; }
   .publications__content {
     margin-top: 5rem; }
-    .publications__content--box {
-      background-color: #cacaca;
-      border-radius: 2rem;
-      padding: 3rem; }
-      .publications__content--box:not(:first-child) {
-        margin-top: 5rem; }
-      .publications__content--box-list {
-        list-style: none; }
-      .publications__content--box-item {
-        display: flex;
-        column-gap: 2rem;
-        margin-top: 2rem; }
-        .publications__content--box-item span {
-          color: #b13a42;
-          font-size: 2rem; }
+    .publications__content--box:not(:first-child) {
+      margin-top: 5rem; }
+    .publications__content--box-list {
+      list-style: none; }
+    .publications__content--box-item {
+      display: flex;
+      column-gap: 2rem;
+      margin-top: 2rem; }
+      .publications__content--box-item span {
+        color: #b13a42;
+        font-size: 2rem; }
 
 .courses {
   margin-top: 20rem;
@@ -391,19 +391,17 @@ body {
       list-style: none;
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
       flex-wrap: wrap;
       column-gap: 5rem;
       row-gap: 2rem; }
     .courses__titles--item {
-      border-radius: 1rem;
       display: flex;
       justify-content: center;
       align-items: center;
       row-gap: 2rem;
       column-gap: 2rem;
-      transition: all 0.5s;
-      border: 2px solid #b13a42;
-      background-color: #cacaca;
       flex: 0 0 50rem; }
       .courses__titles--item a {
         text-decoration: none;
@@ -418,32 +416,18 @@ body {
       .courses__titles--item span {
         font-size: 2rem;
         color: #b13a42; }
-      .courses__titles--item:hover {
-        transform: translateY(-0.5rem);
-        border: 2px solid transparent;
-        box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75);
-        -webkit-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75);
-        -moz-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75); }
-  .courses__text {
-    background-color: #cacaca;
-    border-radius: 2rem;
-    padding: 3rem; }
-    .courses__text:not(:first-child) {
-      margin-top: 4rem; }
+  .courses__text:not(:first-child) {
+    margin-top: 4rem; }
 
 .roles {
   margin-top: 17rem;
-  padding: 0 15rem 0 15rem; }
+  padding: 0 15rem 0 15rem;
+  padding: 0 30rem; }
   .roles__text {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10rem; }
-    .roles__text--box {
-      border-radius: 1rem;
-      padding: 2rem 4rem 2rem 4rem;
-      width: 100rem;
-      background-color: #cacaca; }
   .roles h1 {
     text-align: center; }
   .roles h3 {
@@ -469,15 +453,12 @@ body {
         margin-top: 1.5rem; }
 
 .news {
-  margin-top: 17rem;
-  padding: 0 35rem; }
+  margin-top: 15rem;
+  padding: 0 30rem; }
   .news h1 {
     text-align: center; }
   .news__text {
-    margin-top: 10rem;
-    background-color: #cacaca;
-    border-radius: 1rem;
-    padding: 2rem 4rem 2rem 4rem; }
+    margin-top: 8rem; }
     .news__text p {
       display: flex;
       column-gap: 2rem;
