@@ -34,19 +34,27 @@ body {
   font-size: 3.4rem;
   font-family: "Jost", sans-serif;
   font-weight: 600;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 0.5s;
+  text-align: center; }
 
 .heading-secondary {
+  color: #cacaca;
   font-family: "Jost", sans-serif;
   font-size: 3rem;
-  font-weight: 500; }
+  font-weight: 500;
+  font-style: italic;
+  transition: all 0.5s; }
 
 .heading-tertiary {
+  color: #b13a42;
   font-family: "Jost", sans-serif;
   font-size: 2.5rem;
-  font-weight: 500; }
+  font-weight: 500;
+  border-bottom: 2px solid #ededed; }
 
 .paragraph {
+  line-height: 3rem;
   font-size: 1.5rem; }
 
 .btn {
@@ -81,7 +89,7 @@ body {
   column-gap: 8rem;
   justify-content: center;
   align-items: stretch;
-  padding: 0 5rem 0 5rem; }
+  padding: 0 20rem; }
   .header__profile {
     position: relative;
     background-color: #cacaca;
@@ -142,12 +150,12 @@ body {
             margin-bottom: 2rem; }
       .header__profile--body-btn {
         text-align: center; }
-      .header__profile--body h2 {
-        border-bottom: 2px solid #cacaca;
+      .header__profile--body h3 {
+        color: #29303a !important;
         margin-bottom: 3rem;
         padding-bottom: 1rem;
         text-align: center; }
-        .header__profile--body h2 span {
+        .header__profile--body h3 span {
           color: #b13a42;
           font-style: italic; }
   .header__text {
@@ -161,15 +169,8 @@ body {
       padding: 3rem 4rem 2rem 4rem; }
     .header__text h3 {
       padding-bottom: 1rem;
-      border-bottom: 2px solid #ededed;
-      margin-bottom: 1rem;
-      color: #b13a42;
+      margin-bottom: 4rem;
       font-style: italic; }
-    .header__text p {
-      font-size: 1.5rem !important;
-      line-height: 3rem;
-      text-align: justify;
-      padding-top: 3rem; }
 
 .navbar {
   position: fixed;
@@ -187,11 +188,7 @@ body {
     display: flex;
     column-gap: 2rem; }
     .navbar__title h1 {
-      transition: all 0.5s; }
-    .navbar__title h2 {
-      color: #cacaca;
-      font-style: italic;
-      transition: all 0.5s; }
+      text-align: left; }
     .navbar__title img {
       width: 10rem;
       border-radius: 50%;
@@ -256,6 +253,8 @@ body {
       transition: all 0.5s;
       border: 2px solid #b13a42;
       background-color: #cacaca; }
+      .projects__container--card p {
+        line-height: 2.2rem; }
       .projects__container--card span {
         text-align: center;
         font-size: 1.5rem;
@@ -296,9 +295,6 @@ body {
     filter: grayscale(100%);
     -webklit-filter: grayscale(100%);
     align-self: flex-start; }
-  .students h1 {
-    color: #ffc107;
-    text-align: center; }
   .students__content {
     margin-top: 5rem;
     border-radius: 2rem;
@@ -326,6 +322,34 @@ body {
           border: 2px solid #b13a42;
           filter: grayscale(0);
           -webklit-filter: grayscale(0); }
+
+.research {
+  margin-top: 20rem;
+  padding: 0 30rem; }
+  .research__content {
+    background-color: #cacaca;
+    border-radius: 2rem;
+    margin-top: 5rem;
+    padding: 10rem; }
+    .research__content img {
+      width: 50rem;
+      border-radius: 1rem;
+      border: 2px solid #29303a; }
+    .research__content--list {
+      text-align: center;
+      list-style: none; }
+      .research__content--list-item:not(:last-child) {
+        margin-top: 3rem; }
+    .research__content p {
+      margin-top: 2rem;
+      text-align: left; }
+    .research__content span {
+      color: #b13a42;
+      font-size: 2rem; }
+
+.nested {
+  list-style: none;
+  padding-left: 5rem; }
 
 .roles {
   margin-top: 17rem;
@@ -432,8 +456,7 @@ body {
   text-align: center; }
   .footer img {
     border-radius: 50%; }
-  .footer h3 {
-    color: #cacaca;
+  .footer h2 {
     border-bottom: 1px solid #cacaca;
     width: 100rem;
     margin: 0 auto;
