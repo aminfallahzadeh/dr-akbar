@@ -386,6 +386,12 @@ h4 {
 .research {
   margin-top: 20rem;
   padding: 0 30rem; }
+  @media (max-width: 93.75em) {
+    .research {
+      padding: 0 20rem; } }
+  @media (max-width: 75em) {
+    .research {
+      padding: 0 15rem; } }
   .research__content {
     margin-top: 5rem; }
     .research__content img {
@@ -465,20 +471,13 @@ h4 {
 
 .roles {
   margin-top: 10rem;
-  padding: 0 15rem 0 15rem;
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .roles {
-      margin-top: 12rem;
-      padding: 0 15rem; } }
+      padding: 0 20rem; } }
   @media (max-width: 75em) {
     .roles {
-      margin-top: 9rem;
-      padding: 0 12rem; } }
-  @media (max-width: 56.25em) {
-    .roles {
-      margin-top: 7rem;
-      padding: 0 10rem; } }
+      padding: 0 15rem; } }
   .roles__text {
     display: flex;
     justify-content: center;
@@ -513,12 +512,10 @@ h4 {
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .news {
-      margin-top: 12rem;
-      padding: 0 15rem; } }
+      padding: 0 20rem; } }
   @media (max-width: 75em) {
     .news {
-      margin-top: 10rem;
-      padding: 0 10rem; } }
+      padding: 0 15rem; } }
   .news__text {
     margin-top: 10rem; }
     .news__text--paragraph {
