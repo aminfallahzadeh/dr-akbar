@@ -127,8 +127,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr;
   column-gap: 10rem;
-  padding: 0 20rem;
-  align-items: center; }
+  padding: 0 20rem; }
   @media (max-width: 93.75em) {
     .header {
       display: flex;
@@ -204,6 +203,10 @@ body {
         .header__profile--body h3 span {
           color: #b13a42;
           font-style: italic; }
+  .header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
 
 .navbar {
   position: fixed;
