@@ -510,26 +510,39 @@ h4 {
     filter: grayscale(100%);
     -webklit-filter: grayscale(100%);
     align-self: flex-start; }
+    @media (max-width: 56.25em) {
+      .students img {
+        align-self: center; } }
   .students__content {
     margin-top: 5rem; }
     .students__content p {
       display: flex;
       column-gap: 2rem;
       border-bottom: 2px solid #ededed;
-      font-size: 1.5rem;
       padding-bottom: 2rem; }
+      @media (max-width: 56.25em) {
+        .students__content p {
+          column-gap: 1.5rem; } }
     .students__content--list {
       list-style: none; }
       .students__content--list span {
         color: #b13a42;
-        font-size: 2.3rem;
-        transition: all 0.5s; }
+        font-size: 2rem; }
+        @media (max-width: 56.25em) {
+          .students__content--list span {
+            font-size: 1.5rem; } }
       .students__content--list-item {
         display: flex;
         flex-direction: row;
         column-gap: 5rem; }
         .students__content--list-item:not(:last-child) {
           margin-bottom: 2rem; }
+        @media (max-width: 56.25em) {
+          .students__content--list-item {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 3rem; } }
         .students__content--list-item:hover img {
           border: 2px solid #b13a42;
           filter: grayscale(0);
