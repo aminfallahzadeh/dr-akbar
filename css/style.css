@@ -150,11 +150,7 @@ h4 {
       flex-direction: column;
       background-color: #cacaca;
       border-radius: 1rem;
-      flex: 0 0 40%;
-      align-self: stretch; }
-      @media (max-width: 75em) {
-        .header__container--card {
-          align-self: center; } }
+      flex: 0 0 40%; }
       .header__container--card-btn {
         margin-top: 3rem;
         text-align: center; }
