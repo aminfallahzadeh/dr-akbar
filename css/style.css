@@ -93,7 +93,7 @@ h4 {
   @media (max-width: 56.25em) {
     .paragraph {
       line-height: 2.2rem;
-      font-size: 1.2rem; } }
+      font-size: 1.3rem; } }
   @media (max-width: 37.5em) {
     .paragraph {
       line-height: 2rem; } }
@@ -478,14 +478,6 @@ h4 {
       align-items: center;
       row-gap: 2rem;
       height: 100%; }
-      .projects__container--card p {
-        line-height: 2.2rem; }
-        @media (max-width: 93.75em) {
-          .projects__container--card p {
-            font-size: 1.3rem; } }
-        @media (max-width: 75em) {
-          .projects__container--card p {
-            font-size: 1.1rem; } }
       .projects__container--card span {
         text-align: center;
         font-size: 1.5rem;
