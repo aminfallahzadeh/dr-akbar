@@ -552,14 +552,18 @@ h4 {
     @media (max-width: 56.25em) {
       .students img {
         align-self: center; } }
+    @media (max-width: 37.5em) {
+      .students img {
+        filter: grayscale(0);
+        -webklit-filter: grayscale(0); } }
   .students__content {
     margin-top: 5rem; }
     .students__content p {
       display: flex;
       column-gap: 2rem;
-      border-bottom: 2px solid #ededed;
       padding-bottom: 2rem;
-      text-align: justify; }
+      text-align: justify;
+      border-bottom: 2px solid #ededed; }
       @media (max-width: 56.25em) {
         .students__content p {
           column-gap: 1.5rem; } }
@@ -587,6 +591,9 @@ h4 {
           border: 2px solid #b13a42;
           filter: grayscale(0);
           -webklit-filter: grayscale(0); }
+
+.no-border {
+  border-bottom: none !important; }
 
 .research {
   margin-top: 20rem;
@@ -909,8 +916,13 @@ h4 {
         @media (max-width: 75em) {
           .news__images--item img {
             width: 15rem; } }
+        @media (max-width: 37.5em) {
+          .news__images--item img {
+            filter: grayscale(0);
+            -webkit-filter: grayscale(0); } }
       .news__images--item p {
-        margin-top: 2rem; }
+        margin-top: 2rem;
+        text-align: center; }
       .news__images--item:hover img {
         border: 2px solid #b13a42;
         filter: grayscale(0);
@@ -925,7 +937,7 @@ h4 {
   text-align: center; }
   @media (max-width: 37.5em) {
     .footer {
-      padding: 2rem; } }
+      padding: 1rem; } }
   .footer img {
     border-radius: 50%; }
     @media (max-width: 56.25em) {
@@ -933,7 +945,7 @@ h4 {
         width: 10rem; } }
     @media (max-width: 37.5em) {
       .footer img {
-        width: 7rem; } }
+        width: 6rem; } }
   .footer h2 {
     border-bottom: 1px solid #cacaca;
     width: 100rem;
@@ -947,7 +959,8 @@ h4 {
         width: 40rem; } }
     @media (max-width: 37.5em) {
       .footer h2 {
-        width: 20rem; } }
+        width: 100%;
+        font-size: 1.5rem; } }
   .footer p {
     text-transform: capitalize;
     color: #b13a42;
