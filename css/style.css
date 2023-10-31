@@ -312,12 +312,20 @@ h4 {
       padding: 0 8rem; } }
   .projects__container {
     margin-top: 10rem;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5rem;
     row-gap: 3rem;
     text-align: center;
     grid-auto-rows: 1fr; }
+    @media (max-width: 93.75em) {
+      .projects__container {
+        column-gap: 4rem;
+        row-gap: 2rem; } }
+    @media (max-width: 75em) {
+      .projects__container {
+        column-gap: 3rem;
+        row-gap: 1.5rem; } }
     .projects__container--card {
       border-radius: 1rem;
       display: flex;
@@ -328,6 +336,12 @@ h4 {
       row-gap: 2rem; }
       .projects__container--card p {
         line-height: 2.2rem; }
+        @media (max-width: 93.75em) {
+          .projects__container--card p {
+            font-size: 1.3rem; } }
+        @media (max-width: 75em) {
+          .projects__container--card p {
+            font-size: 1.1rem; } }
       .projects__container--card span {
         text-align: center;
         font-size: 1.5rem;
@@ -339,6 +353,12 @@ h4 {
         -webkit-filter: grayscale(100%);
         transition: all 0.5s;
         border: 2px solid transparent; }
+        @media (max-width: 93.75em) {
+          .projects__container--card img {
+            width: 8rem; } }
+        @media (max-width: 75em) {
+          .projects__container--card img {
+            width: 7rem; } }
       .projects__container--card i {
         font-size: 2rem;
         border: 1px solid #777;
@@ -352,8 +372,14 @@ h4 {
         -webkit-filter: grayscale(0); }
 
 .students {
-  margin-top: 25rem;
-  padding: 0 20rem; }
+  margin-top: 20rem;
+  padding: 0 30rem; }
+  @media (max-width: 93.75em) {
+    .students {
+      padding: 0 20rem; } }
+  @media (max-width: 75em) {
+    .students {
+      padding: 0 8rem; } }
   .students img {
     width: 15rem;
     border-radius: 1rem;
@@ -395,7 +421,7 @@ h4 {
       padding: 0 20rem; } }
   @media (max-width: 75em) {
     .research {
-      padding: 0 15rem; } }
+      padding: 0 8rem; } }
   .research__content {
     margin-top: 5rem; }
     .research__content h3 {
@@ -404,6 +430,9 @@ h4 {
     .research__content img {
       width: 50rem;
       border-radius: 0.3rem; }
+      @media (max-width: 75em) {
+        .research__content img {
+          width: 35rem; } }
     .research__content--list {
       text-align: center;
       list-style: none; }
@@ -411,7 +440,10 @@ h4 {
         margin-top: 3rem; }
     .research__content p {
       margin-top: 2rem;
-      text-align: left; }
+      text-align: left;
+      display: flex;
+      column-gap: 2rem;
+      text-align: justify; }
     .research__content span {
       color: #b13a42;
       font-size: 2rem; }
@@ -423,6 +455,12 @@ h4 {
 .publications {
   margin-top: 20rem;
   padding: 0 30rem; }
+  @media (max-width: 93.75em) {
+    .publications {
+      padding: 0 20rem; } }
+  @media (max-width: 75em) {
+    .publications {
+      padding: 0 8rem; } }
   .publications__content {
     margin-top: 5rem; }
     .publications__content--box:not(:first-child) {
@@ -440,16 +478,23 @@ h4 {
 .courses {
   margin-top: 20rem;
   padding: 0 30rem; }
+  @media (max-width: 93.75em) {
+    .courses {
+      padding: 0 20rem; } }
+  @media (max-width: 75em) {
+    .courses {
+      padding: 0 8rem; } }
   .courses__titles {
     margin-top: 5rem;
-    padding: 10rem;
+    margin-bottom: 10rem;
     overflow: hidden;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    padding-top: 2rem; }
     .courses__titles--list {
       list-style: none;
-      display: inline-grid;
+      display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 5rem;
       row-gap: 2rem; }
@@ -564,10 +609,8 @@ h4 {
       font-size: 2rem;
       color: #b13a42; }
   .news__images {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5rem;
     margin-top: 5rem; }
     .news__images--item {
