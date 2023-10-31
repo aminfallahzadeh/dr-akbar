@@ -501,14 +501,17 @@ h4 {
     .courses__titles--item {
       background-color: #222830;
       border-radius: 1rem;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-      row-gap: 3rem;
       padding: 2rem;
       transition: all 0.5s; }
+      .courses__titles--item a {
+        text-decoration: none;
+        color: #ededed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 3rem; }
       .courses__titles--item-icon1 {
         background-color: #6fbd83; }
       .courses__titles--item-icon2 {
@@ -528,24 +531,16 @@ h4 {
         -moz-box-shadow: 1px 2px 15px 0px rgba(255, 255, 255, 0.75); }
       .courses__titles--item p {
         color: #ededed; }
-      .courses__titles--item a {
-        text-decoration: none;
-        color: #29303a;
-        width: 100%;
-        padding: 2rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        column-gap: 2rem; }
       .courses__titles--item span {
         width: 5rem;
         font-size: 2rem;
         color: #29303a;
         border-radius: 50%;
         padding: 1rem; }
-  .courses__text:not(:first-child) {
-    margin-top: 4rem; }
+  .courses__text {
+    scroll-margin-top: 20rem; }
+    .courses__text:not(:first-child) {
+      margin-top: 4rem; }
 
 .roles {
   margin-top: 10rem;
