@@ -210,6 +210,9 @@ h4 {
         .header__container--card-title img {
           width: 13rem;
           border-radius: 50%; }
+          @media (max-width: 37.5em) {
+            .header__container--card-title img {
+              width: 10rem; } }
       .header__container--card-bio {
         padding: 3rem; }
         .header__container--card-bio h3 {
@@ -388,6 +391,9 @@ h4 {
     .mobileNav__title--heading h3 {
       font-family: "Jost", sans-serif;
       color: #cacaca; }
+      @media (max-width: 37.5em) {
+        .mobileNav__title--heading h3 {
+          font-size: 1rem; } }
   .mobileNav__menu {
     color: #ededed;
     font-size: 3rem; }
