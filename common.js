@@ -2,6 +2,7 @@ window.onscroll = function () {
   scrollFunction();
 };
 
+// handle big navbar on scroll
 const navBar = document.getElementById("nav");
 const navLinks = document.getElementById("links");
 
@@ -12,3 +13,7 @@ function scrollFunction() {
     navBar.classList.remove("active");
   }
 }
+
+// handle small navbar menu
+
+const burger = document.getElementById("burger");
