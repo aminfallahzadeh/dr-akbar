@@ -108,7 +108,7 @@ h4 {
   overflow: hidden; }
   .btn-light:hover {
     background-color: transparent;
-    color: #b13a42; }
+    color: #29303a; }
 
 .textBox {
   border-radius: 1rem;
@@ -129,61 +129,68 @@ h4 {
 
 .header {
   margin-top: 25rem;
-  padding: 0 30rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  column-gap: 5rem; }
+  padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .header {
       padding: 0 20rem; } }
   @media (max-width: 75em) {
     .header {
-      padding: 0 15rem; } }
-  .header__content {
-    padding: 0; }
-    .header__content--bio {
+      padding: 0 8rem; } }
+  .header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: flex-start;
+    column-gap: 5rem; }
+    @media (max-width: 75em) {
+      .header__container {
+        column-gap: 2rem; } }
+    .header__container--card {
       display: flex;
-      column-gap: 10rem;
-      align-items: center;
-      justify-content: center;
-      background-color: #ffc107;
+      flex-direction: column;
+      background-color: #cacaca;
       border-radius: 1rem;
-      padding: 2rem;
-      width: 100%; }
+      flex: 0 0 40%;
+      align-self: stretch; }
       @media (max-width: 75em) {
-        .header__content--bio {
-          column-gap: 7rem; } }
-      .header__content--bio-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        .header__content--bio-title img {
+        .header__container--card {
+          align-self: center; } }
+      .header__container--card-btn {
+        margin-top: 3rem;
+        text-align: center; }
+        .header__container--card-btn a {
+          width: max-content; }
+      .header__container--card-title {
+        background-color: #ffc107;
+        border-radius: 1rem;
+        text-align: center;
+        padding: 1rem 0; }
+        .header__container--card-title h4 {
+          margin-top: 2rem; }
+        .header__container--card-title img {
           width: 13rem;
           border-radius: 50%; }
-        .header__content--bio-title h3 {
+      .header__container--card-bio {
+        padding: 3rem; }
+        .header__container--card-bio h3 {
           color: #29303a !important;
-          margin-bottom: 3rem;
+          margin-bottom: 3rem !important;
           padding-bottom: 1rem;
           text-align: center;
           text-align: left;
           padding: 0;
-          margin: 0; }
-          .header__content--bio-title h3 span {
+          margin: 0;
+          text-align: center; }
+          .header__container--card-bio h3 span {
             color: #b13a42;
             font-style: italic; }
-      .header__content--bio-info {
-        flex: 0 0 30%; }
-        @media (max-width: 93.75em) {
-          .header__content--bio-info {
-            flex: 0 0 40%; } }
-        .header__content--bio-info-list {
+        .header__container--card-bio-list {
+          list-style: none;
           list-style: none;
           display: flex;
           flex-wrap: wrap;
-          justify-content: space-evenly; }
-          .header__content--bio-info-list li {
+          justify-content: space-between; }
+          .header__container--card-bio-list li {
             background: rgba(177, 58, 66, 0.2);
             border-radius: 1rem;
             padding: 1rem;
@@ -192,21 +199,20 @@ h4 {
             flex-direction: row;
             flex-basis: 100%;
             column-gap: 1rem; }
-            .header__content--bio-info-list li a {
+            .header__container--card-bio-list li a {
               text-decoration: none;
               color: #29303a;
               transition: all 0.5s; }
-              .header__content--bio-info-list li a:hover {
+              .header__container--card-bio-list li a:hover {
                 color: #777; }
-            .header__content--bio-info-list li span {
+            .header__container--card-bio-list li span {
               font-style: italic;
               color: #777; }
-            .header__content--bio-info-list li p {
-              display: inline-block !important; }
-            .header__content--bio-info-list li:not(:last-child) {
+            .header__container--card-bio-list li:not(:last-child) {
               margin-bottom: 2rem; }
-    .header__content--about {
-      padding: 3rem; }
+    .header__container--about {
+      align-self: stretch;
+      flex: 0 0 60%; }
 
 .navbar {
   position: fixed;
@@ -300,12 +306,10 @@ h4 {
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .projects {
-      margin-top: 12rem;
-      padding: 0 15rem; } }
+      padding: 0 20rem; } }
   @media (max-width: 75em) {
     .projects {
-      margin-top: 10rem;
-      padding: 0 5rem; } }
+      padding: 0 8rem; } }
   .projects__container {
     margin-top: 10rem;
     display: grid;
@@ -477,7 +481,7 @@ h4 {
       padding: 0 20rem; } }
   @media (max-width: 75em) {
     .roles {
-      padding: 0 15rem; } }
+      padding: 0 8rem; } }
   .roles__text {
     display: flex;
     justify-content: center;
@@ -515,7 +519,7 @@ h4 {
       padding: 0 20rem; } }
   @media (max-width: 75em) {
     .news {
-      padding: 0 15rem; } }
+      padding: 0 8rem; } }
   .news__text {
     margin-top: 10rem; }
     .news__text--paragraph {
