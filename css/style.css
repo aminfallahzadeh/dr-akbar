@@ -322,6 +322,9 @@ h4 {
       .projects__container {
         column-gap: 3rem;
         row-gap: 1.5rem; } }
+    .projects__container a {
+      text-decoration: none;
+      color: #29303a; }
     .projects__container--card {
       border-radius: 1rem;
       display: flex;
@@ -433,7 +436,8 @@ h4 {
       text-align: center;
       list-style: none; }
       .research__content--list-item {
-        margin-top: 3rem; }
+        margin-top: 3rem;
+        scroll-margin-top: 20rem; }
     .research__content p {
       margin-top: 2rem;
       text-align: left;
