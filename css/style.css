@@ -167,6 +167,9 @@ h4 {
     margin: 0 auto;
     position: relative;
     width: 88rem; }
+    @media (max-width: 75em) {
+      .header__card {
+        width: 80rem; } }
     .header__card::before {
       content: "";
       background-color: #222830;
@@ -174,8 +177,11 @@ h4 {
       width: 92rem;
       height: 25rem;
       top: -2rem;
-      left: -3.9rem;
+      left: -3.96rem;
       z-index: -1; }
+      @media (max-width: 75em) {
+        .header__card::before {
+          width: 84rem; } }
     .header__card--title {
       display: flex;
       justify-content: center;
