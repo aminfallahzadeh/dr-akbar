@@ -704,7 +704,8 @@ h4 {
       list-style: none; }
       .research__content--list h3 {
         text-align: left;
-        text-transform: capitalize; }
+        text-transform: capitalize;
+        border: none; }
       .research__content--list-item {
         margin-top: 3rem;
         scroll-margin-top: 20rem; }
@@ -712,7 +713,9 @@ h4 {
       margin-top: 2rem;
       text-align: left;
       display: flex;
-      column-gap: 2rem; }
+      column-gap: 2rem;
+      border-bottom: 2px solid #ededed;
+      padding-bottom: 2rem; }
       @media (max-width: 56.25em) {
         .research__content p {
           column-gap: 1.5rem; } }
@@ -733,6 +736,9 @@ h4 {
 .nested {
   list-style: none;
   padding-left: 5rem; }
+
+.no-border {
+  border: none !important; }
 
 .publications {
   margin-top: 20rem;
