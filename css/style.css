@@ -85,6 +85,9 @@ h4 {
   font-size: 2rem;
   font-family: "Jost", sans-serif;
   font-style: italic; }
+  @media (max-width: 56.25em) {
+    h4 {
+      font-size: 1.8rem; } }
 
 .paragraph {
   line-height: 3rem;
@@ -157,7 +160,7 @@ h4 {
   @media (max-width: 56.25em) {
     .header {
       margin-top: 15rem;
-      padding: 0 5rem; } }
+      padding: 0 10rem; } }
   @media (max-width: 37.5em) {
     .header {
       padding: 0; } }
@@ -170,6 +173,13 @@ h4 {
     @media (max-width: 75em) {
       .header__card {
         width: 80rem; } }
+    @media (max-width: 56.25em) {
+      .header__card {
+        border-radius: 1rem;
+        width: 100%; } }
+    @media (max-width: 56.25em) {
+      .header__card {
+        border-radius: 0; } }
     .header__card::before {
       content: "";
       background-color: #222830;
@@ -182,37 +192,65 @@ h4 {
       @media (max-width: 75em) {
         .header__card::before {
           width: 84rem; } }
+      @media (max-width: 56.25em) {
+        .header__card::before {
+          display: none; } }
     .header__card--title {
       display: flex;
       justify-content: center;
       align-items: center;
       column-gap: 6rem;
       padding-top: 1rem; }
+      @media (max-width: 56.25em) {
+        .header__card--title {
+          column-gap: 3rem; } }
+      @media (max-width: 37.5em) {
+        .header__card--title {
+          column-gap: 1.5rem; } }
       .header__card--title-img {
-        width: 20rem;
+        width: 19rem;
         border-radius: 50%; }
+        @media (max-width: 56.25em) {
+          .header__card--title-img {
+            width: 12rem; } }
+        @media (max-width: 37.5em) {
+          .header__card--title-img {
+            width: 10rem; } }
       .header__card--title-heading {
         text-align: center; }
         .header__card--title-heading h2 {
           color: #29303a;
           font-size: 4rem; }
+          @media (max-width: 56.25em) {
+            .header__card--title-heading h2 {
+              font-size: 2.6rem; } }
         .header__card--title-heading p {
           text-align: center;
           font-size: 2rem;
           margin-top: 1rem; }
+          @media (max-width: 56.25em) {
+            .header__card--title-heading p {
+              font-size: 1.3rem; } }
     .header__card--info {
       display: flex;
       justify-content: flex-start;
       align-items: center;
-      padding-top: 1rem;
       text-align: left;
       padding: 1rem 40% 1rem 2rem; }
+      @media (max-width: 56.25em) {
+        .header__card--info {
+          justify-content: center;
+          padding: 1rem; } }
       .header__card--info-list {
         list-style: none;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 1rem; }
+        @media (max-width: 37.5em) {
+          .header__card--info-list {
+            display: flex;
+            flex-direction: column; } }
         .header__card--info-list li {
           background: rgba(177, 58, 66, 0.2);
           border-radius: 1rem;
@@ -248,6 +286,9 @@ h4 {
   right: 0;
   height: 9rem;
   width: 37%; }
+  @media (max-width: 56.25em) {
+    .corner {
+      display: none; } }
   .corner::after {
     content: "";
     display: block;
