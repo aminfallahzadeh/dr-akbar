@@ -91,30 +91,35 @@
     <main>
         <div class="research">
             <h1 class="heading-primary">Brief Research Descriptions</h1>
-
             <div class="research__content textBox">
                 <p class="paragraph">In SHINE, we aim to merge applied electromagnetics and integrated circuits/systems
                     to establish a cohesive research team that enables the development of innovative circuits/systems
-                    for a wide range of applications.
+                    for a wide range of applications.<br>
+                    Here are some examples of our current projects:
                 </p>
-                <h3 class="heading-tertiary">Here are some examples of our current projects</h3>
                 <ul class="research__content--list">
                     <li class="research__content--list-item" id="research1" name="research1">
+                        <h3 class="heading-tertiary">In-band full duplex system</h3>
                         <img src="../assets//research-desc-1.png" alt="Description 1" />
                         <p class="paragraph">
                             <span>
                                 <i class="fa-regular fa-hand-point-right"></i>
-                            </span>This research provides an innovative solution to a critical problem in
-                            simultaneous transmit and receive (STAR) communication and radar systems. In this research,
-                            our main focus is to address the significant issue of self-interference, a problem often
-                            leading to receiver saturation and nonlinearity. To tackle this challenge, we've designed a
-                            specialized self-interference cancellation circuit tailored for shared W-band (77-81 GHz)
-                            antennas in automotive FMCW radar applications. Our approach encompasses various techniques
-                            in antenna and RF domains to effectively reduce self-interference signals through
-                            segregating desired and undesired signals into common and differential modes.
+                            </span>This research provides an innovative solution to a critical problem in simultaneous
+                            transmit and receive (STAR) communication and radar systems. In this research, our main
+                            focus is to address the significant issue of self-interference, a problem often leading to
+                            receiver nonlinearity and saturation.
+                            To address this challenge, we have designed a new active low-noise circulator in conjunction
+                            with a quadrature-fed antenna. This structure results in circular polarized radiation of the
+                            transmitting signal, segregating the echo and self interference (SI) signals, and
+                            significantly attenuating the SI.
+                            As a proof of concept, the proposed SI cancellation configuration is designed for a 77-81
+                            GHz FMCW radar system sharing Tx/Rx antenna, and the radar’s performance verifies the
+                            superiority of the introduced technique.
+
                         </p>
                     </li>
                     <li class="research__content--list-item" id="research2" name="research2">
+                        <h3 class="heading-tertiary">Wearable Electronics</h3>
                         <img src="../assets/research-desc-2.jpg" alt="Description 2" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
@@ -131,6 +136,7 @@
                             Index (AHI), maintaining an average reliability rate of approximately 93%.</p>
                     </li>
                     <li class="research__content--list-item" id="research3" name="research3">
+                        <h3 class="heading-tertiary">Ultra-low-power electronics</h3>
                         <img src="../assets/research-desc-3.png" alt="Description 3" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
@@ -143,26 +149,29 @@
                             and brain electrical activity monitoring microsystems.</p>
                     </li>
                     <li class="research__content--list-item" id="research4" name="research4">
+                        <h3 class="heading-tertiary">low-power-low-complexity hight-speed wireline transceivers</h3>
                         <img src="../assets/research-desc-4.jpg" alt="Description 4" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
-                            </span>To catch up with the escalating network traffic and to meet the
-                            ever-growing demand for high data rates of wireline communication systems while enhancing
-                            their power efficiency, we have offered several solutions in our group, a couple of which
-                            are outlined below: </p>
+                            </span>To catch up with the escalating network traffic and to meet the ever-growing demand
+                            for high data rates of wireline communication systems while enhancing their power
+                            efficiency, we have offered several solutions in our group, a couple of which are outlined
+                            below:
+                        </p>
 
                         <ul class="nested">
                             <li>
                                 <p class="paragraph"><span>
                                         <i class="fa-solid fa-1"></i>
-                                    </span>We have introduced a novel signaling method (communication
-                                    protocol) which is based on a Nyquist-rate orthogonal pulse amplitude modulation
-                                    scheme. This innovative signaling approach allows for a high-rate data transmission
-                                    and a high quality (with low sensitivity to noise and jitter) data reception while
-                                    reducing the power consumption of wired transceivers. This efficiency is derived
-                                    from the unique structure of the proposed signaling, which can be implemented using
-                                    simple and low-power integrated circuits and eliminates the requirement of complex
-                                    equalizers and clock and data recovery (CDR) circuits. </p>
+                                    </span>We have introduced a novel signaling method (communication protocol) which is
+                                    based on a Nyquist-rate orthogonal pulse amplitude modulation scheme. This
+                                    innovative signaling approach allows for a high-rate data transmission and a high
+                                    quality (with low sensitivity to noise and jitter) data reception while reducing the
+                                    power consumption of wired transceivers. This efficiency is derived from the unique
+                                    structure of the proposed signaling which eliminates the need for complex equalizers
+                                    and clock and data recovery (CDR) circuits and allows for a simple implementation of
+                                    the entire TRx using low-power integrated circuits.
+                                </p>
                             </li>
                             <li>
                                 <p class="paragraph"><span>
@@ -175,6 +184,8 @@
                         </ul>
                     </li>
                     <li class="research__content--list-item" id="research5" name="research5">
+                        <h3 class="heading-tertiary">low-power vector modulators for communication and radar systems
+                        </h3>
                         <img src="../assets/research-desc-5.png" alt="Description 5" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
@@ -187,6 +198,7 @@
                             communication systems.</p>
                     </li>
                     <li class="research__content--list-item" id="research6" name="research6">
+                        <h3 class="heading-tertiary">novel beamforming/steering methods</h3>
                         <img src="../assets/research-desc-6.png" alt="Description 6" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
@@ -194,19 +206,22 @@
                             array antennas, allow for mitigating the propagation loss of energy and are essential in
                             modern communication and radar systems. This work introduces an innovative technique based
                             on superimposing circular waveguide TEn1 modes for circular polarized beamforming and 360°
-                            beam steering. What's remarkable is that this method can be implemented with a single,
-                            relatively compact antenna structure. This beamforming/steering antenna has potential
+                            beam steering. A remarkable advantage of this method is its realization using a single
+                            relatively compact antenna structure.
+                            This beamforming/steering antenna has potential
                             applications in user mobile devices, base stations, repeaters, and radars. Moreover, owing
                             to its circular polarized radiation, it offers improved immunity to issues like multipath
                             fading and multiple reflections and eliminates the need for Tx and Rx precise antenna
                             alignment.</p>
                     </li>
                     <li class="research__content--list-item" id="research7" name="research7">
+                        <h3 class="heading-tertiary">low-power low-temperature-coefficient oscillators</h3>
                         <img src="../assets/research-desc-7.jpg" alt="Description 7" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
-                            </span>The growth of automotive driving and the increasing speed of data transfer
-                            protocols, such as CAN Bus and USB, have raised the demand for stable clock sources
+                            </span>The growth of demand for autonomous vehicles and higher data rates in communication
+                            protocols and hardware interfaces like CAN bus and USB, has
+                            raised the demand for stable clock sources
                             maintaining low temperature coefficient (TC) over a wide temperature range (e.g. from -20°C
                             to +100°C). Additionally, a robust oscillator consuming a very low amount of power is also
                             crucial in wearables, network sensors, and IoT. Traditionally, temperature-dependent
@@ -216,27 +231,31 @@
                             temperature changes. </p>
                     </li>
                     <li class="research__content--list-item" id="research8" name="research8">
+                        <h3 class="heading-tertiary">Integrated harmonic rejection mixers</h3>
                         <img src="../assets/research-desc-8.jpg" alt="Description 8" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
-                            </span>The growing demand for wideband radio systems and the desire to minimize
+                            </span>The increasing demand for wideband and multi-standard radio systems
+                            and the desire to minimize
                             the number of high-frequency filters in radio systems have driven our motivation to design
                             harmonic rejection mixers. We intend to reduce power consumption by utilizing low-power
                             multi-phase square wave generators. Such harmonic rejection mixers would be well-suited for
                             5G telecommunications applications.</p>
                     </li>
                     <li class="research__content--list-item" id="research9" name="research9">
+                        <h3 class="heading-tertiary">self-calibrating phased arrays</h3>
                         <img src="../assets/research-desc-9.jpg" alt="Description 9" />
                         <p class="paragraph"><span>
                                 <i class="fa-regular fa-hand-point-right"></i>
-                            </span>Self-calibrated phased arrays are capable of autonomously calibrating and
+                            </span>Self-calibrating phased arrays are capable of autonomously calibrating and
                             optimizing their performance without external calibration equipment or any manual
                             adjustment. These arrays include multiple antenna elements that can dynamically adjust their
                             excitation phase and amplitude settings to compensate for component variations,
-                            environmental changes, or other sources of interference. Integrated self-calibrated phased
+                            environmental changes, or other sources of interference. Integrated Self-calibrating phased
                             arrays offer significant advantages, but they also face several challenges, including high
                             power consumption, large area, complex circuitry, and limited tuning range. In this project,
-                            we focus on developing a low-complexity, compact, and low-power self-calibrated phased array
+                            we focus on developing a low-complexity, compact, and low-power Self-calibrating phased
+                            array
                             with a large tuning range to facilitate their commercial use.</p>
                     </li>
                 </ul>

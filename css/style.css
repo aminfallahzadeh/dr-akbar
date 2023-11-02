@@ -690,9 +690,6 @@ h4 {
       padding: 0; } }
   .research__content {
     margin-top: 5rem; }
-    .research__content h3 {
-      margin-top: 3rem;
-      text-align: center; }
     .research__content img {
       width: 50rem;
       border-radius: 0.3rem; }
@@ -705,6 +702,9 @@ h4 {
     .research__content--list {
       text-align: center;
       list-style: none; }
+      .research__content--list h3 {
+        text-align: left;
+        text-transform: capitalize; }
       .research__content--list-item {
         margin-top: 3rem;
         scroll-margin-top: 20rem; }
