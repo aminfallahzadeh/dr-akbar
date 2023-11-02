@@ -74,9 +74,6 @@ body {
   font-size: 2.5rem;
   font-weight: 500;
   border-bottom: 2px solid #ededed; }
-  @media (max-width: 75em) {
-    .heading-tertiary {
-      font-size: 2rem; } }
   @media (max-width: 56.25em) {
     .heading-tertiary {
       font-size: 1.7rem; } }
@@ -204,6 +201,9 @@ h4 {
       column-gap: 17rem;
       padding-top: 1rem;
       padding-right: 3rem; }
+      @media (max-width: 75em) {
+        .header__card--title {
+          column-gap: 12rem; } }
       @media (max-width: 56.25em) {
         .header__card--title {
           column-gap: 3rem; } }
@@ -273,12 +273,16 @@ h4 {
             color: #b13a42;
             z-index: 1; }
     .header__card--about {
-      -webkit-clip-path: polygon(0 0, 34% 0, 34% 31%, 100% 32%, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 34% 0, 34% 18%, 100% 18%, 100% 100%, 0 100%);
       clip-path: polygon(0 0, 34% 0, 34% 18%, 100% 18%, 100% 100%, 0 100%);
       margin: 0 auto;
       position: absolute;
       top: 27rem;
       width: 100%; }
+      @media (max-width: 75em) {
+        .header__card--about {
+          -webkit-clip-path: polygon(0 0, 34% 0, 34% 17%, 100% 17%, 100% 100%, 0 100%);
+          clip-path: polygon(0 0, 34% 0, 34% 17%, 100% 17%, 100% 100%, 0 100%); } }
       @media (max-width: 56.25em) {
         .header__card--about {
           -webkit-clip-path: none;
@@ -291,6 +295,9 @@ h4 {
       .header__card--about h3 {
         text-align: center;
         width: 25rem; }
+        @media (max-width: 75em) {
+          .header__card--about h3 {
+            width: 21rem; } }
         @media (max-width: 56.25em) {
           .header__card--about h3 {
             width: 100%; } }
@@ -319,6 +326,9 @@ h4 {
   left: 0;
   height: 9rem;
   width: 36%; }
+  @media (max-width: 75em) {
+    .corner {
+      width: 36.5%; } }
   @media (max-width: 56.25em) {
     .corner {
       display: none; } }
