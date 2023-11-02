@@ -1,0 +1,19 @@
+/* TEAM */
+Developer and Designer: amin.dev.tech
+Contact: amin.dev.tech@gmail.com
+Portfolio: https://amin-dev-tech.github.io/portfolio/
+Github: https://github.com/amin-dev-tech/
+
+Location: Turkey, Kayseri
+
+[...]
+/* THANKS */
+Name: DAHAK.CO Company
+Visit Them On : http://www.dahakco.ir/
+[...]
+
+/* SITE */
+Last update: 2023/10/31
+Standards: HTML5, CSS3/SASS, javascript
+Components: NA/
+Software: Static Website (No Backend Included)
