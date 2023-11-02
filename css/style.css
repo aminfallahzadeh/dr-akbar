@@ -252,13 +252,14 @@ h4 {
             display: flex;
             flex-direction: column; } }
         .header__card--info-list li {
-          background: rgba(177, 58, 66, 0.4);
+          background-color: #cacaca;
           border-radius: 1rem;
           padding: 1rem;
           color: #29303a;
           display: flex;
           flex-direction: row;
-          column-gap: 1rem; }
+          column-gap: 1rem;
+          position: relative; }
           .header__card--info-list li a {
             text-decoration: none;
             color: #29303a;
@@ -267,7 +268,8 @@ h4 {
               color: #777; }
           .header__card--info-list li span {
             font-style: italic;
-            color: #a5a5a5; }
+            color: #b13a42;
+            z-index: 1; }
     .header__card--about {
       -webkit-clip-path: polygon(0 0, 36% 0, 36% 31%, 100% 32%, 100% 100%, 0 100%);
       clip-path: polygon(0 0, 36% 0, 36% 18%, 100% 18%, 100% 100%, 0 100%);
@@ -285,6 +287,7 @@ h4 {
         .header__card--about {
           border-radius: 0; } }
       .header__card--about h3 {
+        text-align: center;
         width: 25rem; }
         @media (max-width: 56.25em) {
           .header__card--about h3 {
