@@ -559,7 +559,9 @@ h4 {
       text-decoration: none;
       color: #29303a; }
     .projects__container p {
-      text-align: center; }
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500; }
     .projects__container--card {
       border-radius: 1rem;
       display: flex;
@@ -860,7 +862,7 @@ h4 {
       margin-top: 4rem; }
 
 .roles {
-  margin-top: 50rem;
+  margin-top: 60rem;
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .roles {
