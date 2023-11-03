@@ -576,11 +576,17 @@ h4 {
       .projects__container--card img {
         width: 15rem;
         border-radius: 1rem;
+        filter: grayscale(100%);
+        -webkit-filter: grayscale(100%);
         transition: all 0.5s;
         border: 2px solid transparent; }
         @media (max-width: 93.75em) {
           .projects__container--card img {
             width: 12rem; } }
+        @media (max-width: 37.5em) {
+          .projects__container--card img {
+            filter: grayscale(0);
+            -webkit-filter: grayscale(0); } }
       .projects__container--card i {
         font-size: 2rem;
         border: 1px solid #777;
