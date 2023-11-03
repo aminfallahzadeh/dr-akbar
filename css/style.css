@@ -175,7 +175,8 @@ h4 {
     @media (max-width: 56.25em) {
       .header__card {
         border-radius: 1rem;
-        width: 100%; } }
+        width: 100%;
+        padding-bottom: 0; } }
     @media (max-width: 37.5em) {
       .header__card {
         border-radius: 0; } }
@@ -273,16 +274,12 @@ h4 {
             color: #b13a42;
             z-index: 1; }
     .header__card--about {
-      -webkit-clip-path: polygon(0 0, 34% 0, 34% 18%, 100% 18%, 100% 100%, 0 100%);
-      clip-path: polygon(0 0, 34% 0, 34% 18%, 100% 18%, 100% 100%, 0 100%);
+      -webkit-clip-path: polygon(0 0, 34% 0, 34% 25%, 100% 25%, 100% 100%, 0 100%);
+      clip-path: polygon(0 0, 34% 0, 34% 25%, 100% 25%, 100% 100%, 0 100%);
       margin: 0 auto;
       position: absolute;
       top: 27rem;
       width: 100%; }
-      @media (max-width: 75em) {
-        .header__card--about {
-          -webkit-clip-path: polygon(0 0, 34% 0, 34% 17%, 100% 17%, 100% 100%, 0 100%);
-          clip-path: polygon(0 0, 34% 0, 34% 17%, 100% 17%, 100% 100%, 0 100%); } }
       @media (max-width: 56.25em) {
         .header__card--about {
           -webkit-clip-path: none;
@@ -862,7 +859,7 @@ h4 {
       margin-top: 4rem; }
 
 .roles {
-  margin-top: 60rem;
+  margin-top: 35rem;
   padding: 0 30rem; }
   @media (max-width: 93.75em) {
     .roles {
