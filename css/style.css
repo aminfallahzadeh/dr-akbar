@@ -531,7 +531,7 @@ h4 {
       padding: 0 2rem; } }
   .projects__container {
     margin-top: 6rem;
-    display: inline-grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5rem;
     row-gap: 3rem;
@@ -574,22 +574,13 @@ h4 {
         font-size: 1.5rem;
         font-weight: 600; }
       .projects__container--card img {
-        width: 10rem;
+        width: 15rem;
         border-radius: 1rem;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%);
         transition: all 0.5s;
         border: 2px solid transparent; }
         @media (max-width: 93.75em) {
           .projects__container--card img {
-            width: 8rem; } }
-        @media (max-width: 75em) {
-          .projects__container--card img {
-            width: 7rem; } }
-        @media (max-width: 37.5em) {
-          .projects__container--card img {
-            filter: grayscale(0);
-            -webkit-filter: grayscale(0); } }
+            width: 12rem; } }
       .projects__container--card i {
         font-size: 2rem;
         border: 1px solid #777;
@@ -623,16 +614,10 @@ h4 {
     border-radius: 1rem;
     border: 2px solid transparent;
     transition: all 0.5s;
-    filter: grayscale(100%);
-    -webklit-filter: grayscale(100%);
     align-self: flex-start; }
     @media (max-width: 56.25em) {
       .students img {
         align-self: center; } }
-    @media (max-width: 37.5em) {
-      .students img {
-        filter: grayscale(0);
-        -webklit-filter: grayscale(0); } }
   .students__content {
     margin-top: 5rem; }
     .students__content p {
@@ -994,16 +979,10 @@ h4 {
         width: 20rem;
         border-radius: 50%;
         border: 2px solid transparent;
-        transition: all 0.5s;
-        filter: grayscale(100%);
-        -webkit-filter: grayscale(100%); }
+        transition: all 0.5s; }
         @media (max-width: 75em) {
           .news__images--item img {
             width: 15rem; } }
-        @media (max-width: 37.5em) {
-          .news__images--item img {
-            filter: grayscale(0);
-            -webkit-filter: grayscale(0); } }
       .news__images--item p {
         margin-top: 2rem;
         text-align: center; }
