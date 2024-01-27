@@ -43,7 +43,7 @@ This project utilizes the following dependencies:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/dr-akbar-portfolio.git
+   git clone https://github.com/amin-dev-tech/dr-akbar.git
    ```
 
 2. Open the `index.html` file in your preferred web browser.
